@@ -6,14 +6,13 @@ import { data } from './data';
 const TravelNews=()=>{
     const renderNews=({ item })=><News data={ item }/>;
     return(
-        <>
-            <FlatList
+        <FlatList
             data={ data }
-            renderItem={renderNews}
+            renderItem={ renderNews }
             ListHeaderComponent={() => <Text style={styles.header}>Travel News</Text>}
-            ListHeaderComponentStyle={{margin:25}}
-            />     
-        </> 
+            ListHeaderComponentStyle={{margin:30}}
+        />     
+       
     ) 
 }
 const styles = StyleSheet.create({
