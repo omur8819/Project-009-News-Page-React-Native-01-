@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text,StyleSheet,Image,Dimensions } from 'react-native'
 
-const News = ({data}) => {
+const News = ({ data }) => {
     
     return (
         <View style={styles.container}>
@@ -13,24 +13,24 @@ const News = ({data}) => {
 }
 const styles=StyleSheet.create({
    container:{
-    flex: 1,
-    padding: 10,
-    margin: 15,
-    borderWidth: 5,
-    borderColor: 'wheat',
-    borderRadius: 10,
+        flex: 1,
+        padding: 10,
+        margin: 15,
+        borderWidth: 5,
+        borderColor: 'wheat',
+        borderRadius: 10,
    } ,
    image: {
-    height: Dimensions.get('window').width * 0.85,
-    borderRadius: 5
-  },
-  title: {
-    fontWeight: 'bold',
-    marginVertical: 3,
-    fontSize: 25
-},
-desc:{
-    fontSize: 16
-}
+        height: Dimensions.get('window').width * 0.85,
+        borderRadius: 5
+    },
+    title: {
+        fontWeight: 'bold',
+        marginVertical: 3,
+        fontSize: 25
+    },
+    desc:{
+        fontSize: 16
+    }
 })
-export { News};
+export { News };
