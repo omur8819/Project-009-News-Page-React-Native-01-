@@ -7,9 +7,9 @@ const TravelNews=()=>{
     const renderNews=({ item })=><News data={ item }/>;
     return(
         <FlatList
-            data={ data }
-            renderItem={ renderNews }
             ListHeaderComponent={() => <Text style={styles.header}>Travel News</Text>}
+            renderItem={ renderNews }
+            data={ data }
             ListHeaderComponentStyle={{margin:30}}
         />     
        
