@@ -10,7 +10,7 @@ const TravelNews=()=>{
             ListHeaderComponent={() => <Text style={styles.header}>Travel News</Text>}
             renderItem={ renderNews }
             data={ data }
-            ListHeaderComponentStyle={{margin:30}}
+            ListHeaderComponentStyle={{margin:50}}
         />     
        
     ) 

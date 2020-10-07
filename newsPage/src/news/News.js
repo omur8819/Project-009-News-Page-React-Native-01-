@@ -14,7 +14,7 @@ const News = ({ data }) => {
 const styles=StyleSheet.create({
    container:{
         flex: 1,
-        padding: 10,
+        padding: 20,
         margin: 15,
         borderWidth: 5,
         borderColor: 'wheat',
